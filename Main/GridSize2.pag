@@ -1,0 +1,27 @@
+VERSION 5.00
+Begin VB.PropertyPage GridSize2 
+   Caption         =   "PropertyPage1"
+   ClientHeight    =   2130
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   2190
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   2130
+   ScaleWidth      =   2190
+   Begin VB.CommandButton Command1 
+      Caption         =   "Command1"
+      Height          =   495
+      Left            =   480
+      TabIndex        =   0
+      Top             =   840
+      Width           =   1215
+   End
+End
+Attribute VB_Name = "GridSize2"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub PropertyPage_SelectionChanged()
+PropertyPage.Command1.
+End Sub
